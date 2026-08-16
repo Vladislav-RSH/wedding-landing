@@ -1,15 +1,8 @@
-import './index.css'
+import "./index.css";
+import { HomePage } from "./pages/HomePage";
 
 function App() {
-  
-
-  return (
-    <>
-      <section id="center">
-      
-      </section>
-    </>
-  )
+    return <HomePage />;
 }
 
-export default App
+export default App;
