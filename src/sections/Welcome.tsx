@@ -21,7 +21,7 @@ export function Welcome() {
                 src={heart}
                 alt=""
                 aria-hidden="true"
-                className="pointer-events-none absolute left-[22px] top-[-6px] z-0 w-[379px] max-w-none select-none"
+                className="pointer-events-none absolute top-[-6px] z-0 w-[379px] max-w-none select-none"
             />
 
             <div className="relative z-10 h-[472px]">
@@ -35,11 +35,8 @@ export function Welcome() {
                     мы мечтали!
                 </p>
 
-                <div className="absolute left-[35px] top-[223px] z-40 h-[128px] w-[40px] overflow-hidden text-center text-[39px] font-semibold leading-[0.82]">
-                    <div className="calendar-roll">
-                        <DateStack />
-                        <DateStack />
-                    </div>
+                <div className="absolute left-[35px] top-[223px] z-40 w-[40px] text-center text-[39px] font-semibold leading-[0.82]">
+                    <DateStack />
                 </div>
 
                 <img

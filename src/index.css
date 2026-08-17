@@ -78,21 +78,6 @@ a {
     will-change: transform;
 }
 
-@keyframes calendar-roll {
-    from {
-        transform: translateY(0);
-    }
-
-    to {
-        transform: translateY(-50%);
-    }
-}
-
-.calendar-roll {
-    animation: calendar-roll 7s linear infinite;
-    will-change: transform;
-}
-
 @keyframes button-pulse {
     0%,
     100% {
@@ -124,7 +109,6 @@ a {
 @media (prefers-reduced-motion: reduce) {
     .marquee-track,
     .about-date-track,
-    .calendar-roll,
     .animated-button {
         animation: none;
     }

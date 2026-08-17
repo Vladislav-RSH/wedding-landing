@@ -9,12 +9,16 @@ export function Footer() {
                 className="absolute inset-x-0 bottom-0 block h-full w-full object-contain object-bottom"
             />
 
-            <div className="absolute inset-x-0 top-[184px] z-10 flex flex-col items-center px-[28px] text-center">
-                <p className="max-w-[315px] text-[17px] font-semibold italic leading-[1.08] text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.55)]">
-                    Будем рады видеть вас на нашем празднике!
+            <div className="absolute right-[30px] top-[190px] z-10 w-[160px] text-right text-white">
+                <p className="text-[13px] font-semibold italic leading-[0.9] drop-shadow-[0_2px_8px_rgba(0,0,0,0.55)]">
+                    с любовью и теплыми
+                    <br />
+                    воспоминаниями,
                 </p>
-                <p className="mt-[18px] max-w-[315px] text-[22px] leading-none text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.55)]">
-                    Антон и Ангелина
+                <p className="mt-[2px] text-[19px] font-semibold uppercase leading-[0.84] drop-shadow-[0_2px_8px_rgba(0,0,0,0.55)]">
+                    АНТОН <span className="text-[10px] font-semibold italic">и</span>
+                    <br />
+                    АНГЕЛИНА
                 </p>
             </div>
         </footer>
